@@ -17,6 +17,7 @@ body {
   background-color: white;
   margin-top: 10vh;
   border-radius: 25px;
+  padding-bottom: 25px;
 }
 
 .hero-image {
@@ -30,10 +31,11 @@ h1 {
 .annual-plan {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   background-color: hsl(225, 100%, 98%);
-  max-width: 300px;
+  width: 250px;
   border-radius: 10px;
+  padding: 0 25px;
 }
 
 .para-text {
@@ -43,10 +45,25 @@ h1 {
   line-height: 25px;
   font-weight: 600;
 }
+
 .payment-button {
   width: 300px;
   height: 40px;
   border: none;
   border-radius: 10px;
-  margin-top: 8%;
+  margin-top: 6%;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0px 16px 52px -8px hsl(245, 75%, 52%);
+  color: white;
+  margin-bottom: 4%;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  margin-top: 10%;
 }
