@@ -35,7 +35,7 @@ h1 {
   background-color: hsl(225, 100%, 98%);
   width: 250px;
   border-radius: 10px;
-  padding: 0 25px;
+  padding: 25px 25px;
 }
 
 .para-text {
@@ -66,4 +66,19 @@ h1 {
 footer {
   text-align: center;
   margin-top: 10%;
+}
+h6 {
+  font-size: 15px;
+  font-weight: 900;
+  margin: 0ex;
+}
+
+.price {
+  margin: 0;
+  margin-top: 5px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+.price-container {
+  margin-left: -30px;
 }
